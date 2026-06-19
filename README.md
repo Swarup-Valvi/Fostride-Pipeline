@@ -188,3 +188,25 @@ models/active/best.pth
 models/archive/
 training_history.json
 model_registry.json
+
+## Required External Files
+
+This GitHub repo does not include raw images, datasets, or trained model files.
+
+Before running the project, download/copy these folders manually:
+
+```text
+models/active/best.pth
+
+datasets/dataset_v1/
+  train/images
+  train/labels
+  valid/images
+  valid/labels
+  test/images
+  test/labels
+
+local_storage/raw_images/
+  bin1/
+  bin2/
+  bin3/
