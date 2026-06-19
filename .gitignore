@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# macOS
+.DS_Store
+
+# Label Studio
+label_studio.sqlite3
+
+# Models
+models/
+!models/.gitkeep
+
+# Datasets
+datasets/
+!datasets/.gitkeep
+
+# Raw images
+local_storage/raw_images/
+!local_storage/raw_images/.gitkeep
+
+# Exports
+labelstudio_exports/
+
+# Training history
+training_history.json
+model_registry.json
+
+# Candidate models
+candidate_nmodel_v2/
+
+# Tensorboard
+runs/
+
+# Logs
+*.log
+
+# Environment
+.env
